@@ -2,8 +2,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        KeyReader keyReader = new KeyReader();
-        System.out.println(keyReader.getApi_key());
+        FixerHTTPManager fixerHTTPManager = new FixerHTTPManager();
+
+        fixerHTTPManager.setLatestRates();
+        System.out.println(fixerHTTPManager.getLatestRates());
 
     }
 
