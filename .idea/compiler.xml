@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="fixer_io_example" target="1.5" />
+      <module name="fixer_io_example" target="6" />
     </bytecodeTargetLevel>
   </component>
 </project>
